@@ -120,11 +120,14 @@ h1 .white{
   border-top: 1px solid #ffffff;
   border-radius: 100px;
   box-shadow: 1px 1px 10px 1px #ffffff;
-  margin: 2em;
+  margin: 2em auto;
+  max-width: 65%;
 }
 
 .about-main{
  min-height: 23em;
+ max-width: 65%;
+ margin: auto
 }
 
 .about-main p{
@@ -170,7 +173,7 @@ h1 .white{
 }
 
 .contents{
-  max-width: 95%;
+  max-width: 65%;
   height: auto;
   margin-top: 1.5em;
 }
@@ -224,9 +227,10 @@ footer{
 }
 
 footer .form{
-  margin: 2em;
+  margin: 2em auto;
   font-family: cuatra-light;
   font-weight: 500;
+  max-width: 65%;
 }
 
 footer .form input{
